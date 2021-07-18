@@ -12,9 +12,8 @@
 
 #include "libftprintf.h"
 
-int	ft_return(va_list ap, t_format *frm)
-{
-	if (ap || frm->zero)
-		return (0);
+int ft_return(va_list ap, t_format *frm) {
+  if (ap || frm->zero)
 	return (0);
+  return (0);
 }
